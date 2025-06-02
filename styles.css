@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #913420;
+    --secondary-color: #f7f4ed;
+    --third-color: #e9e3d1;
+}
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+/********** Navbar **********/
+
+.navbar {
+    background-color: var(--primary-color);
+    height: 70px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 20px;
+    margin: 0 30px;
+    margin-right: 50px;
+}
+
+.navbar ul li{
+    padding: 0 7px;
+}
+
+.navbar img{
+    height: 50px;
+    width: auto;
+    margin: 10px 30px;
+}
+
+.navbar ul a:hover{
+    border-bottom: 2px #fff solid;
+}
+
+
+/********** Main Body **********/
+.main-body .grid {
+    display: grid;
+    background-color: #FFFAEC;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 30px;
+}
+
+.main-body h1 {
+    padding: 100px 0 15px 7%;
+    font-size: 75px;
+    position: relative;
+}
+
+.main-body h2 {
+    padding: 0px 0 0 53px;
+}
+
+.main-body .home-image {
+    height: 100px;
+}
+
+img {
+    margin-top: 20px;
+    height: 350px;
+    width: auto;
+    
+}
+
+/****** Second Showcase ******/
+.showcase-2 {
+    display: flex;
+    padding: 30px 0 70px 0;
+    background-color: var(--third-color);
+}
+
+.showcase-2 .images{
+    margin-left: 7%;
+    display: flex;
+}
+
+.showcase-2 img{
+    width: 250px;
+    height: auto;
+}
+
+#image1{
+    position: absolute;
+    z-index: 10;
+}
+
+#image2{
+    position: relative;
+    bottom: -20px;
+    left: 220px;
+}
+
+.showcase-2 .text{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+/********** Footer **********/
+.footer {
+    display: flex;
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+
+    justify-content: space-evenly;
+}
+
+.footer p{
+    padding-top: 20px;
+}
+
+
+
+/*************** About Page *****************/
+.about-main-body {
+    background-color: var(--secondary-color);
+    height: 400px;
+    padding-top: 75px;
+}
+
+.about-main-body h1 {
+    padding: 10px 0 10px 40px;
+    font-size: 45px;
+}
+
+.about-main-body p {
+    padding: 10px 40px;
+}
+
+.image-collage {
+    background-color: var(--secondary-color);
+    height: 200px;
+    display: flex;
+    justify-content:center;
+}
+
+.image-collage img {
+    height: 200px;
+    width: auto;
+}
+
+/* Form */
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background: var(--secondary-color);
+}
+
+.contact-section img {
+    padding: 30px 0 0 0;
+    height: 400px;
+    width: auto;
+}
+
+.contact-form {
+    position: relative;
+    background: var(--secondary-color);
+    /* width: calc(100% - 400px); */
+    padding: 25px 25px 20px 70px;
+}
+
+.contact-form h1 {
+    padding: 0 0 15px 25px;
+}
+
+.contact-form form{
+    width: 100%;
+    /* width: calc(100% - 400px); */
+}
+
+.contact-form .row{
+    width: 100%;
+    display: flex;
+}
+
+.contact-form .input50{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.contact-form .input100{
+    width: 100%;
+    margin: 0 10px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #111;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    resize: none;
+}
+
+.contact-form .row textarea{
+    height: 150px;
+}
+
+.contact-form .row input[type='submit'] {
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+/*************** Birds Page *****************/
+.birds-main-body {
+    background-color: var(--secondary-color);
+    padding: 50px 0 70px 0;
+}
+
+.birds-main-body h1, h2, p {
+    padding: 0 45px;
+    margin: 0 100px;
+}
+
+.birds-main-body p{
+    padding-top: 20px;
+}
+
+.bird-info{
+    display: flex;
+}
+
+.bird-info p{
+    margin: auto;
+}
+
+.birds-main-body .cardinals {
+    padding-top: 50px;
+}
+
+.cardinals img{
+    padding-left: 60px;
+}
+
+.birds-main-body .chickadees {
+    padding-top: 50px;
+}
+
+.chickadees img {
+    padding-left: 60px;
+}
+
+
+.birds-main-body .tufted-titmouse {
+    padding-top: 50px;
+}
+
+.tufted-titmouse img {
+    padding-left: 60px;
+}
+
+.birds-main-body .coopers-hawk {
+    padding-top: 50px;
+}
+
+.coopers-hawk img {
+    padding-left: 60px;
+}
+
+
+/*************** Plants Page *****************/
+.plants-main-body {
+    padding: 50px 0 70px 0;
+    background-color: var(--secondary-color);
+}
+
+/* .plants-main-body h1, h2 {
+    padding-left: 100px;
+} */
+
+.plants-main-body p{
+    padding-top: 40px;
+    padding-left: 2%;
+}
+
+.plant-info{
+    display: flex;
+}
+
+.plant-info p{
+    margin: auto;
+}
+
+.plants-main-body .magnolias {
+    padding-top: 50px
+}
+
+.magnolias img{
+    padding: 0 50px 0 100px;
+}
+
+.magnolia-img-1 {
+    height: 450px;
+    width: auto;
+}
+
+.plants-main-body .dogwood {
+    padding-top: 50px;
+}
+
+.dogwood-photos {
+    padding-left: 60px;
+}
+
+.dogwood img {
+    padding-right: 25px;
+}
+
+.plants-main-body .goldenrod {
+    padding-top: 50px;
+}
+
+.goldenrod-photos {
+    /* padding-left: 60px; */
+    padding-left: 5%;
+}
+
+.goldenrod img {
+    padding-right: 30px;
+    height: 400px;
+    width: auto;
+}
+
+.plants-main-body .milkweed {
+    padding-top: 50px;
+}
+
+.milkweed-photos {
+    padding-left: 60px;
+}
+
+
+
+
+
+@media(max-width: 1130px) {
+    .main-body h1 {
+        font-size: 65px;
+    }
+}
+
+/************* Tablets and under **********/
+@media(max-width: 768px) {
+    .main-body img {
+        height: 60%;
+        width: auto;
+        padding-top: 40px;
+    }
+
+    .main-body h1 {
+        padding-top: 50px;
+    }
+    
+    .main-body h2 {
+        padding-left: 30px;
+        
+    }
+}
+
+/*************** Mobile *******************/
+@media(max-width: 500px){
+    .main-body .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-body img {
+        width: 400px;
+        height: auto;
+        padding: 0px 0 30px 60px;
+    }
+
+
+    .cardinals img,
+    .chickadees img,
+    .tufted-titmouse img,
+    .coopers-hawk img {
+        width: 450px;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .navbar .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar img{
+        margin: 10px 10px 10px 30px;
+    }
+
+
+    .magnolias img{
+        max-width: 450px;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .dogwood img {
+        max-width: 450px;
+        height: auto;
+    }
+
+    .dogwood-photos {
+        padding-left: 28px;
+    }
+
+    .goldenrod img {
+        max-width: 425px;
+        height: auto;
+    }
+    
+    .goldenrod-photos {
+        padding-left: 47px;
+    }
+
+    .milkweed-photos {
+        padding-left: 42px;
+    }
+
+
+    .image-collage .mobile-delete {
+        display: none;
+    }
+
+    .image-collage img {
+        
+    }
+    
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+
+    .contact-section img {
+        max-width: 450px;
+        height: auto;
+        margin-left: 12px;
+        padding-bottom: 30px;
+    }
+
+    .contact-form {
+        padding-left: 30px;
+    }
+}
