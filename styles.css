@@ -146,7 +146,7 @@ img {
 /*************** About Page *****************/
 .about-main-body {
     background-color: var(--secondary-color);
-    height: 400px;
+
     padding-top: 75px;
 }
 
@@ -443,22 +443,6 @@ img {
         margin: auto;
     }
 
-    .footer p{
-        padding: 0;
-        padding-top: 20px;
-        margin: 0;
-    }
-
-    /**** Birds ****/
-    .cardinals img,
-    .chickadees img,
-    .tufted-titmouse img,
-    .coopers-hawk img {
-        width: 450px;
-        height: auto;
-        padding-left: 30px;
-    }
-
     .navbar .container {
         display: flex;
         justify-content: space-around;
@@ -509,54 +493,124 @@ img {
         margin: auto;
     }
 
+    .footer p{
+        padding: 0;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+
+    /**** Birds ****/
+    .birds-main-body h1, h2, p {
+        padding: 0 30px;
+        margin: 0;
+    }
+
+
+
+    .bird-info{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .cardinals img,
+    .chickadees img,
+    .tufted-titmouse img,
+    .coopers-hawk img {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+
     /**** Plants ****/
+    .plant-info{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .plants-main-body h1 {
+    padding-left: 30px;
+    }
+
+    .plants-main-body .top-text p{
+        padding: 10px;
+    }
+
+    .plants-main-body p{
+        /* padding-top: 40px;
+        padding-left: 2%; */
+        margin: auto;
+    }
+
+    .plant-info{
+        padding-bottom: 30px;
+    }
+
+    .plant-info p{
+        padding: 10px 0 0 5%;
+        margin: auto;
+    }
+
+    .plant-info img{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: none;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
     .magnolias img{
-        max-width: 450px;
-        height: auto;
-        padding-left: 30px;
+        padding: 20px 0 0 15%;
+        width: 80%;
+        margin: auto;
     }
 
-    .dogwood img {
-        max-width: 450px;
-        height: auto;
+    .dogwood-photos{
+        padding-left: 10%;
     }
 
-    .dogwood-photos {
-        padding-left: 28px;
+    .dogwood img{
+        padding-right: 0;
     }
 
-    .goldenrod img {
-        max-width: 425px;
-        height: auto;
+    .milkweed-photos{
+        padding-left: 10%;
     }
+
+    .goldenrod-photos{
+        padding-left: 10%;
+    }
+
+    .goldenrod img{
+        padding-right: 0;
+    }
+
     
-    .goldenrod-photos {
-        padding-left: 47px;
-    }
-
-    .milkweed-photos {
-        padding-left: 42px;
-    }
 
 
+    /*** About ***/
     .image-collage .mobile-delete {
         display: none;
     }
 
-    .image-collage img {
-        
+    .about-main-body h1{
+        font-size: 40px;
     }
     
     .contact-section {
         display: flex;
         flex-direction: column;
-        padding-top: 150px;
+        padding-top: 30px;
     }
 
     .contact-section img {
-        max-width: 450px;
+        max-width: 90%;
         height: auto;
-        margin-left: 12px;
+        margin: auto;
         padding-bottom: 30px;
     }
 
