@@ -435,22 +435,26 @@ img {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  /* background-color: #fefefe; */
   margin: auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
 }
 
-.mySlides img{
-    display: none;
-    height: 75vh;
+
+.first-imgs{
+    width: 10%;
+}
+
+.second-imgs{
+    height: auto;
     width: auto;
 }
-.modal-content img{
+/* .modal-content img{
     width: 50%;
     height: auto;
-}
+} */
 
 /* The Close Button */
 .close {
